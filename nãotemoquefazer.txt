@@ -1,0 +1,52 @@
+Juvenal estava sem ter o que fazer em uma sexta-feira imprensada e resolveu criar uma fun��o, por�m ele n�o sabe se ela sempre termina, j� que � recursiva. A fun��o � a seguinte:
+
+F(n) = {
+
+1, se n = 1
+
+F(n/2), se n for par
+
+F(3*n+1), se n for �mpar
+
+}
+
+Juvenal definiu outra fun��o: G(n) = quantas chamadas recursivas s�o necess�rias para que F(n) atinja o caso base. Agora, dado dois inteiros A e B, Juvenal quer saber qual o maior valor que a fun��o G assume quando n est� no intervalo [A,B].
+
+Formato de Entrada A primeira linha cont�m T, o n�mero de casos de teste. Cada caso de teste cont�m dois n�meros, A e B.
+
+Restri��es 1 <= T <= 100
+
+1 <= A<=B <= 10^5
+
+Formato de Sa�da Para cada caso imprima "Caso X: Y", onde X � o n�mero do caso de teste atual e Y � o que Juvenal quer saber. Ex: 
+Caso 1: 20
+
+Caso 2: 125
+
+Caso 3: 89
+
+Caso 4: 174
+
+Exemplos. N�O H� LINHAS EM BRANCO NEM NA ENTRADA NEM NA SA�DA
+
+Entrada:
+
+4
+
+1 10
+
+100 200
+
+201 210
+
+900 1000
+
+Sa�da:
+
+Caso 1: 20
+
+Caso 2: 125
+
+Caso 3: 89
+
+Caso 4: 174'''
