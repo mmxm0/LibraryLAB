@@ -19,8 +19,8 @@ def quicksort(x):
     return quicksort(menor) + igual + quicksort(maior)
 
 lista = []
-for i in range(1000):
-    lista.append(random.randint(0,100))
+for i in range(10):
+    lista.append(random.randint(0,10))
 tempIni = time()
 lista2 = lista[::]
 print("ANTES do QuickSort: %s"%lista)
