@@ -1,3 +1,4 @@
+#PILHA 100% FUNCIONAL AMÉM
 class No:
 
     def __init__(self, dados=None):
@@ -127,15 +128,15 @@ class Pilha(ListaEncadeada):
 
     def pop(self):
         return self.remover()
-    
+
+
+
+#teste
 pilhaMaster = Pilha()
-def registro():
-    linha  = input()
-    pilha = Pilha()
-    for i in linha:
-        if i != " ":
-            pilha.push(i)
-    return pilha
-p = registro()
-pilhaMaster.push(p)
-p.listarPilha()
+pilhaMaster.push(1)
+pilhaMaster.push(2)
+pilhaMaster.push(3)
+pilhaMaster.push(4)
+pilhaMaster.listarPilha()
+pilhaMaster.pop()
+pilhaMaster.listarPilha()
